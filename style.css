@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif,sans-serif;
+    scroll-behavior: smooth;
+}
+
+.Logoo h1{
+    font-size: 1.8rem !important;
+}
+
+.nav1{
+    background: linear-gradient(45deg, #af4eff, #23d9f9);
+}
+
+.logo-color{
+    color: #01c1fc;
+}
+.Logoo h1{
+    font-weight: 900;
+}
+
+nav{
+    display: flex;
+    align-items: center !important;
+    justify-content: space-between;
+    background: linear-gradient(45deg, #af4eff, #23d9f9);
+    /* color: white; */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+li{
+    list-style: none;
+    margin-top: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(88, 2, 248);
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+ul li a:hover{
+    color: rgb(14, 230, 230);
+}
+#menulist {
+  transition: max-height 0.3s ease-in-out;
+}
+.menu-icons {
+  display: none;
+}
+
+/* banner*/
+
+.background-image{
+    background-image: url(files/Gemini_Generated_Image_6197va6197va6197.png);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    text-align: right;
+    margin-top: 15%;
+    position: absolute;
+    left: 40%;
+}
+.heading h1{
+    text-align: center;
+    font-size: 3.5rem;
+    color: black;
+}
+.heading h5{
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    margin-top: 20px;
+}
+.b1{
+    display: flex;
+    margin-left:45%;
+    border: none;
+    padding: 14px 20px;
+    margin-top: 20px;
+  background: linear-gradient(45deg, #af4eff, #23d9f9);
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 15px rgba(129, 0, 235, 0.4);
+}
+.b1 a{
+    color: white;
+    text-decoration: none;
+}
+.b1 a:hover{
+    color: white;
+}
+.b1:hover{
+     transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(134, 0, 243, 0.4);
+  background: linear-gradient(45deg, #23d9f9, #af4eff);
+}
+
+/* Artist */
+
+.head-artist{
+    text-align: center;
+    margin-top: 10px;
+}
+.card-main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.card1 img{
+    border-radius: 50%;
+    height: 25vh;
+    width: 25vh;
+    cursor: pointer;
+}
+.card1{
+    margin-left: 60px;
+}
+.card{
+    border: none !important;
+}
+
+/* Songs */
+
+.card2 img{
+    border-radius: 15px;
+}
+.card2 i{
+    position: absolute;
+    left: 72%;
+    top: 45%;
+    color: #8b01fc;
+}
+.play-icon {
+  position: absolute !important;
+  top: 40%;
+  left: 40%;
+  color: white;
+  cursor: pointer;
+  z-index: 1;
+  opacity: 0;
+   transition: opacity 0.3s ease !important;
+}
+
+.card2:hover .play-icon {
+  display: block !important;
+   opacity: 1 !important;
+}
+
+.song-list{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.card2{
+    margin-top: 30px;
+    width: 25vh!important;
+    cursor: pointer;
+}
+.song-main h1{
+ text-align: center;
+ margin-top: 20px;
+ font-weight: 700;
+}
+
+/* botton */
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.song-info{
+    position: absolute;
+    left: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.gif-color{
+    color: white;
+}
+.song-info img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
